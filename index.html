@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="hover.css">
+    <style>
+        html,body
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            width: 100%;
+            height: 100vh;
+            border: 2px solid black;
+            position: relative;
+        }
+        .image
+        {
+            width: 100%;
+            height: 100%;
+            background-image: url('beverage-computer-flower-948888.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .overlay
+        {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.9;
+            top: 0%;
+            position: absolute;
+        }
+        .maincon
+        {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid rgb(160, 156, 157); */
+            position: absolute;
+            top: 0%;
+        }
+        .nav
+        {
+            width: 100%;
+            height: 10%;
+            /* border: 2px solid green; */
+            display: flex;
+        }
+        .nav1
+        {
+            width: 20%;
+            height: 100%;
+            /* border: 2px solid yellow; */
+            font-size: 50px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav2
+        {
+            width: 80%;
+            height: 100%;
+            /* border: 2px solid purple; */
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .a
+        {
+           width: 70%;
+           height: 100%;
+           /* border: 2px solid black; */
+           color: white;
+           display: flex;
+            justify-content: center;
+            text-decoration: none;
+            align-items: center;
+        }
+        .nav21,.nav22,.nav23,.nav24,.nav25,.nav26,.nav27,.nav28,.nav29
+        {
+            width: 8%;
+            height: 80%;
+            /* border: 2px solid peru; */
+            display: flex;
+        }
+        .head
+        {
+            width: 80%;
+            height: 40%;
+            /* border: 2px solid white; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .head1
+        {
+            width: 100%;
+            height: 30%;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+        }
+        .head2
+        {
+            width: 100%;
+            height: 40%;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .head3
+        {
+            width: 100%;
+            height: 30%;
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .but1,.but2
+        {
+            width: 15%;
+            height: 70%;
+            /* border: 2px solid black; */
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1%;
+            border-radius: 5px;
+        } 
+        .b
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+        }       
+        .b:hover
+        {
+            background-color: rgb(37, 176, 241);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="image"></div>
+        <div class="overlay"></div>
+       <div class="maincon">
+        <div class="nav">
+            <div class="nav1"><b>LOGO</b></div>
+            <div class="nav2">
+                    <div class="nav21"><a href="#" class="a hvr-underline-from-center"><b>Home</b></a></div>
+                    <div class="nav22"><a href="#" class="a hvr-underline-from-center"><b>Service</b></a></div>
+                    <div class="nav23"><a href="#" class="a hvr-underline-from-center"><b>Works</b></a></div>
+                    <div class="nav24"><a href="#" class="a hvr-underline-from-center"><b>About</b></a></div>
+                    <div class="nav25"><a href="#" class="a hvr-underline-from-center"><b>Team</b></a></div>
+                    <div class="nav26"><a href="#" class="a hvr-underline-from-center"><b>Blog</b></a></div>
+                    <div class="nav27"><a href="#" class="a hvr-underline-from-center"><b>Portfolio</b></a></div>
+                    <div class="nav28"><a href="#" class="a hvr-underline-from-center"><b>News</b></a></div>
+                    <div class="nav29"><a href="#" class="a hvr-underline-from-center"><b>Contact</b></a></div>
+            </div>
+        </div>
+        <div class="head">
+            <div class="head1">WE ARE CREATIVE AGENCY</div>
+            <div class="head2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam unde quam adipisci accusantium est! Sequi dolores nostrum numquam perferendis vitae!<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, incidunt.</div>
+            <div class="head3">
+                <div class="but1"><a href="#" class="b"><b>Get Started!</b></a></div>
+                <div class="but2"><a href="#" class="b"><b>Learn More</b></a></div>
+            </div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
